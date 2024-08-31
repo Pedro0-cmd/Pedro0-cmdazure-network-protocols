@@ -145,6 +145,12 @@ We can see that Wireshark shows the reverse DNS is having trouble, but it resolv
 
 <h3>Inspecting RDP Traffic in Wireshark</h3>
 
+RDP, as we know it—also known as Remote Desktop Protocol—obviously generates traffic since we're using a virtual machine. However, let’s see what happens when we type ***tcp.port == 3389*** in Wireshark.
+
+![image](https://github.com/user-attachments/assets/6695c8e3-70e9-47da-9d47-a5d9e60a0d70)
+
+Indeed, there is non-stop traffic because we are connected to the virtual machine. That’s all—thanks for reading!
+
 
 
 
