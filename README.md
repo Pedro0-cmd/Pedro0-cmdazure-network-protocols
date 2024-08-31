@@ -131,6 +131,25 @@ Go back to Wireshark and enter `dhcp` in the filter. Then, type `ipconfig /renew
 
 ![image](https://github.com/user-attachments/assets/bdb9b86a-4655-4174-be05-c87a51f927d4)
 
+<h3>Inspecting DNS Traffic in Wireshark</h3>
+
+Now let's see if Wireshark can show us the IP addresses. Let's try Google. In Wireshark, enter `dns` in the filter, and in the Command Prompt, type `nslookup google.com`.
+
+![image](https://github.com/user-attachments/assets/e811ff26-b369-42fe-a54d-edf10fc0ed24)
+
+![image](https://github.com/user-attachments/assets/127c3ce1-10ed-490b-8560-6df1b5410deb)
+
+We can see that Wireshark shows the reverse DNS is having trouble, but it resolves itself through the forward DNS.
+
+![image](https://github.com/user-attachments/assets/1272c0c9-41dd-4024-8bc7-5849073528c3)
+
+<h3>Inspecting RDP Traffic in Wireshark</h3>
+
+
+
+
+
+
 
 
 
