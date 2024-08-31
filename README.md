@@ -119,14 +119,13 @@ You're awesome—you made it! Now we are logged into our second virtual machine.
 
 ![image](https://github.com/user-attachments/assets/6e9e75e4-bd22-403e-901e-237898093a18)
 
-"Don’t forget to type `exit` to log out.
+Don’t forget to type `exit` to log out.
 
 <h3>Inspecting DHCP Traffic in Wireshark</h3>
 
-"Go back to Wireshark and enter `dhcp` in the filter. Then, type `ipconfig /renew` in the Command Prompt. This may temporarily disconnect your virtual machine, but it will help you see that DHCP also has traffic. You can verify this by observing Wireshark."
+Go back to Wireshark and enter `dhcp` in the filter. Then, type `ipconfig /renew` in the Command Prompt. This may temporarily disconnect your virtual machine, but it will help you see that DHCP also has traffic. You can verify this by observing Wireshark.
 
 ![image](https://github.com/user-attachments/assets/4f30ec1c-520d-461a-bd48-a893ce21970f)
-
 
 ![image](https://github.com/user-attachments/assets/48cec906-5087-405c-bd33-6574f40f2ca2)
 
